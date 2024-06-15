@@ -7,6 +7,12 @@ class homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Icon(Icons.add_a_photo),
+      ),
+      drawer: Drawer(backgroundColor: Colors.teal),
       body: SafeArea(
         child: Center(
             child: Container(
